@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas e sombras</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(255, 255, 255);
+            margin: 0px;
+            
+        }
+        header {
+            background-color: #174847;
+            padding: 10px;
+            margin: 10px;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.541);
+            
+        }
+        nav {
+            background-color: #79ADAD;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.541);
+        }
+        nav > a {
+            text-decoration: none;
+            color: beige;
+            font-weight: bold;
+            margin-right: 30px ;
+            
+        }
+        main{
+            background-color: #CAE0E0;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        article{
+            background-color: #79ADAD;
+            padding: 5px;
+            border-radius: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.541);
+        }
+        article > aside{
+            background-color: #174847;
+            border-radius: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.541);
+        }
+        footer{
+            background-color: #053332;
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.541);
+        }
+        footer > p{
+            margin: 0%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meus site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes, politica e tecnologia</p>
+            <article>
+                <h2>Testando article</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus expedita accusantium eaque nemo voluptates dolorum eum vel? Dolorem, maiores ipsam veritatis omnis, adipisci nam, expedita nobis accusantium fugit saepe similique!</p>
+                <aside>
+                    <p>artigo escrito por mc donalds</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo curso em video</p>
+    </footer>
+</body>
+</html>
