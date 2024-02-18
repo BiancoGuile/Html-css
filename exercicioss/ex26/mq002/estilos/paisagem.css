@@ -6,3 +6,21 @@ body {
     background: url(../../imagens/cev-landscape.jpg);
     background-position: left bottom;
 }                   
+
+@media screen and (min-width: 768px)  and (max-width:992) {
+    body {
+       background-image: url( ../../imagens/back-tablet.jpg);
+    }
+
+    img#pone { display: none;}
+    img#tablet {display: none;}
+    img#print{display: none;} 
+    img#pc {display: none;}
+    img#tv { display: none;}
+}
+
+@media screen and (min-width:992px) and (max-width:1200) {
+    body {
+        background-image: url(../../imagens/back-pc.jpg);
+    }
+}
